@@ -238,3 +238,13 @@ button {
   letter-spacing: 0.03em;
   font-style: normal;
 }
+
+.mail:hover,
+.tel:hover {
+  color: var(--accent-color);
+}
+
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
