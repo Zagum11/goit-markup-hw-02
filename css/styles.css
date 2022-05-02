@@ -103,7 +103,8 @@ button {
   letter-spacing: 0.06em;
 }
 
-.button:hover {
+.button:hover,
+.button.secondary.section:hover {
   color: var(--white-color);
   background-color: #188ce8;
 }
@@ -121,7 +122,7 @@ button {
   letter-spacing: 0.03em;
 }
 
-/* Section  */
+/* Особенности  */
 .section-title {
   color: var(--primary-text-color);
   background-color: var(--white-color);
@@ -178,6 +179,8 @@ button {
   letter-spacing: 0.03em;
 }
 
+
+/* навигация страницы */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -191,7 +194,6 @@ button {
   overflow: hidden;
 }
 
-/* навигация страницы */
 .works-main-section {
   background-color: var(--white-color);
 }
