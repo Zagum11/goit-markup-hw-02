@@ -83,7 +83,10 @@ button {
 }
 
 /* Герой */
-.hero,
+.hero {
+  background-color: var(--hero-footer-bgcolor);
+}
+
 .hero-title {
   color: var(--white-color);
   background-color: var(--hero-footer-bgcolor);
@@ -104,17 +107,25 @@ button {
 }
 
 .button:hover,
-.button.secondary.section:hover {
+.button:focus {
   color: var(--white-color);
   background-color: #188ce8;
 }
+
+
+.second-button:hover,
+.second-button:focus {
+  color: var(--white-color);
+  background-color: #188ce8;
+}
+
 
 .section {
   background-color: var(--white-color);
   color: var(--primary-text-color);
 }
 
-.button.secondary.section {
+.second-button {
   background-color: var(--secondary-button-color);
   font-weight: 500;
   font-size: 16px;
@@ -162,7 +173,6 @@ button {
 
 .section-name {
   color: var(--primary-text-color);
-  background-color: var(--white-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -172,7 +182,6 @@ button {
 
 .position {
   color: var(--secondary-text-color);
-  background-color: var(--white-color);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
